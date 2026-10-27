@@ -3,6 +3,8 @@
 An interactive study guide for §17.1–17.2.2 of Kevin P. Murphy, *Probabilistic Machine Learning: An Introduction*
 (Mercer kernels, Mercer's theorem, popular kernels, combining kernels, and Gaussian process regression with noise-free and noisy observations).
 
+**Live:** https://isaackrallison.github.io/kernels-gaussian-processes/
+
 Every section has an **Explain it** box at four levels (Kid, High school, Undergrad, Grad / MLE), switchable globally from the top bar.
 
 - **17.1 Mercer kernels:** drag points on a line and watch the Gram matrix and its eigenvalues update. Try RBF, Matérn ½, linear and polynomial kernels, then two that fail: box similarity and −distance². "Break it" builds the 3-point counterexample. Hunt for c with cᵀKc < 0 (Eqs. 17.1–17.3).
